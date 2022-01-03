@@ -1,0 +1,31 @@
+.NavbarItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 900;
+  flex-direction: column;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+}
+.Kyochul {
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.menu-icon {
+  display: flex;
+}
+
+.menu-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
