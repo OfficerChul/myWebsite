@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
   font-weight: 900;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .nav-links {
@@ -15,6 +14,7 @@
   cursor: pointer;
 }
 .Kyochul {
+  font-size: 3rem;
   list-style-type: none;
   cursor: pointer;
   justify-content: left;
@@ -26,6 +26,7 @@
 
 .menu-titles {
   display: flex;
+  font-size: 2rem;
   flex-direction: column;
   align-items: center;
 }

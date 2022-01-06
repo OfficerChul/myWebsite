@@ -2,27 +2,26 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems.js";
 import "./Navbar.css";
-import logo from "./logo.png";
+
+import test from "./test.jpg";
 
 class Navbar extends Component {
   state = { clicked: false };
+
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
 
   render() {
     return (
       <nav className="NavbarItems">
         <div className="menu-icon" onClick={this.handleClick}>
-          <i className={this.state.clicked ? "hi" : "go away"}></i>
-        </div>
-
-        <div className="logo">
-          <a href="#">
-            <img src={logo}></img>{" "}
-          </a>
+          <i
+            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+          ></i>
         </div>
 
         <div className="below-logo">
-          <h1 className="Kyochul">Kyochul Jang's Website</h1>
-
           <ul className="menu-titles">
             {MenuItems.map((item, index) => {
               return (
