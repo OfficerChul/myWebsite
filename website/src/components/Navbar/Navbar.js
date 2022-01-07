@@ -25,8 +25,10 @@ class Navbar extends Component {
           <ul className="menu-titles">
             {MenuItems.map((item, index) => {
               return (
-                <li className={item.cName}>
-                  <a href={item.url}>{item.title}</a>
+                <li>
+                  <a className={item.cName} href={item.url}>
+                    {item.title}
+                  </a>
                 </li>
               );
             })}

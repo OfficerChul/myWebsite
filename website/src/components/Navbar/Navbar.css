@@ -12,6 +12,8 @@
   display: flex;
   padding: 0.5rem 5rem;
   background-color: transparent;
+  text-decoration: none;
+  color: #fff;
 }
 
 .logo {
@@ -26,6 +28,6 @@
   display: flex;
   font-size: 1.5rem;
   flex-direction: row;
-
   align-items: center;
+  list-style-type: none;
 }
