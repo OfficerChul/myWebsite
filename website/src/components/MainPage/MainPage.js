@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./MainPage.css";
 import logo from "./logo.png";
 
 class MainPage extends Component {
@@ -8,7 +9,9 @@ class MainPage extends Component {
         <a href="#" className="logo">
           <img src={logo}></img>
         </a>
-        <h1 className="Kyochul">Kyochul Jang's Website</h1>
+        <div className="Kyochul">
+          <h1>Kyochul Jang's Website</h1>
+        </div>
       </div>
     );
   }

@@ -1,4 +1,17 @@
 .main {
   display: flex;
-  justify-content: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 2rem;
+}
+.Kyochul {
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: left;
 }

@@ -4,20 +4,18 @@
   align-items: center;
   font-weight: 900;
   flex-direction: row;
+  height: 3rem;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .nav-links {
   display: flex;
+  padding: 0.5rem 5rem;
+  background-color: transparent;
 }
 
 .logo {
   cursor: pointer;
-}
-.Kyochul {
-  font-size: 3rem;
-  list-style-type: none;
-  cursor: pointer;
-  justify-content: left;
 }
 
 .menu-icon {
@@ -26,7 +24,8 @@
 
 .menu-titles {
   display: flex;
-  font-size: 2rem;
-  flex-direction: column;
+  font-size: 1.5rem;
+  flex-direction: row;
+
   align-items: center;
 }
