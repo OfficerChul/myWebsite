@@ -1,3 +1,5 @@
+import Cards from "../Cards";
+
 export const MenuItems = [
   {
     title: "Home",
@@ -6,7 +8,7 @@ export const MenuItems = [
   },
   {
     title: "Project",
-    url: "#",
+    url: { Cards },
     cName: "nav-links",
   },
   {
