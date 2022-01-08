@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding-top: 2rem;
   background: #fff;
 }
 
@@ -8,52 +8,52 @@ h1 {
 }
 
 .cards__container {
-  display: flex;
-  flex-flow: column;
+  justify-content: center;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  display: flex;
+
+  width: 100%;
   margin: 0 auto;
 }
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  display: flex;
+
+  margin: 20px 0 45px;
 }
 
 .cards__items {
+  display: flex;
+
   margin-bottom: 24px;
+  padding-top: 24px;
 }
 
 .cards__item {
   display: flex;
+  flex-direction: column;
+
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  width: 15rem;
+  height: 20rem;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px rgb(187, 187, 187);
+  transition: all 0.2s;
+  animation: ease-in-out;
 }
 
-.cards__item__link {
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
+.cards__item:hover {
+  transform: scale(1.1);
 }
 
 .cards__item__pic-wrap {
   position: relative;
-  width: 100%;
+
   padding-top: 67%;
   overflow: hidden;
-}
-
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
 }
 
 .cards__item__pic-wrap::after {
@@ -68,6 +68,7 @@ h1 {
   color: #fff;
   background-color: #1f98f4;
   box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .cards__item__img {
@@ -82,20 +83,20 @@ h1 {
   height: 100%;
   max-height: 100%;
   object-fit: cover;
-  transition: all 0.2s linear;
-}
-
-.cards__item__img:hover {
-  transform: scale(1.1);
+  border-radius: 15px;
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 10px 30px 20px;
 }
 
-.cards__item__text {
-  color: #252e48;
-  font-size: 18px;
+.cards__item__title {
+  padding-bottom: 0.5rem;
+  font-weight: 900;
+}
+
+.cards__item__body {
+  color: #737785;
   line-height: 24px;
 }
 

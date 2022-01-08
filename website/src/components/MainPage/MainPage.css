@@ -10,7 +10,8 @@
 }
 .Kyochul {
   font-size: 2.2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   list-style-type: none;
   cursor: pointer;
 }
