@@ -14,6 +14,14 @@ function Cards() {
               body="The websites you are viewing now is created by me."
               title="Website Project"
               skills="HTML, CSS, React.js"
+              url="https://github.com/OfficerChul/myWebsite"
+            />
+            <CardItem
+              src="images/social_network_profile_project.jpg"
+              body="Network application which can show yourself to others."
+              title="Social Network Profile Project"
+              skills="Java"
+              url="https://github.com/OfficerChul/project-05"
             />
           </ul>
         </div>
