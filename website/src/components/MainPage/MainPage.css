@@ -5,9 +5,10 @@
   align-items: center;
 }
 
-.logo {
-  padding-top: 2rem;
+.logo-img {
+  height: 20rem;
 }
+
 .Kyochul {
   font-size: 2.2rem;
   padding-top: 1rem;

@@ -4,8 +4,7 @@
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(198, 118, 196, 1) 100%,
-    rgba(196, 141, 204, 1) 100%
+    rgba(186, 225, 255, 1) 100%
   );
   padding: 1rem 0 1rem 0;
   display: flex;
@@ -13,6 +12,16 @@
   justify-content: space-around;
   align-items: center;
 }
+
+/* .footer-shadow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  flex-direction: row;
+  height: 3rem;
+  background: rgba(0, 0, 0, 0.2);
+} */
 
 .social-media {
   max-width: 10000px;

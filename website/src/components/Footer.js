@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
+      {/* <div className="footer-shaow">dd</div> */}
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
