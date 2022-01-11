@@ -26,18 +26,10 @@
   transform: matrix3d();
 }
 
-.logo {
-  cursor: pointer;
-}
-
-.menu-icon {
-  display: flex;
-}
-
 .menu-titles {
   display: flex;
   font-size: 1.5rem;
   flex-direction: row;
-  align-items: center;
+
   list-style-type: none;
 }

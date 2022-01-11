@@ -8,41 +8,47 @@ h1 {
 }
 
 .cards__container {
-  justify-content: center;
-  align-items: center;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 
   width: 100%;
   margin: 0 auto;
 }
 
 .cards__wrapper {
-  position: relative;
   display: flex;
-
   margin: 20px 0 45px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cards__items {
   display: flex;
-
-  margin-bottom: 24px;
   padding-top: 24px;
 }
 
 .cards__item {
   display: flex;
   flex-direction: column;
-
   flex: 1;
-  margin: 0 1rem;
-  margin-bottom: 1.5rem;
   width: 15rem;
   height: 20rem;
   border-radius: 30px;
   box-shadow: 5px 5px 5px rgb(187, 187, 187);
   transition: all 0.2s;
   animation: ease-in-out;
+  justify-content: space-around;
+}
+.cards__item__wrapper {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.cards__item__atag {
+  text-decoration: none;
 }
 
 .cards__item:hover {
@@ -60,6 +66,7 @@ h1 {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
+  left: 0%;
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
@@ -116,6 +123,6 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
 }
