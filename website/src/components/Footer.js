@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Footer.css";
-import logo from "../components/MainPage/logo.png";
 import Modal from "react-modal";
 
 function Footer() {
@@ -11,12 +10,6 @@ function Footer() {
       {/* <div className="footer-shaow">dd</div> */}
       <section className="social-media">
         <div className="social-media-wrap">
-          <div className="footer-logo">
-            <a href="/" className="my-logo">
-              <img src={logo} className="logo-footer" alt=""></img>Kyochul Jang
-            </a>
-            {/* I tried to use {Link} instead of react-router-dom, but its not working.} */}
-          </div>
           <div className="website-right-and-social">
             <div className="social-icons">
               <a

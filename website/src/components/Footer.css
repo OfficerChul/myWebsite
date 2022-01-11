@@ -47,11 +47,9 @@
 
 .social-media-wrap {
   display: flex;
-  justify-content: space-between;
-}
-
-.footer-logo {
-  padding-left: 2rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-flow: row;
 }
 
 .logo-footer {
