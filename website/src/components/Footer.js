@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 import logo from "../components/MainPage/logo.png";
-import { Link } from "react-router-dom";
+import Modal from "react-modal";
 
 function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="footer-container">
       {/* <div className="footer-shaow">dd</div> */}
@@ -11,7 +13,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <a href="/" className="my-logo">
-              <img src={logo} className="logo-footer"></img>Kyochul Jang
+              <img src={logo} className="logo-footer" alt=""></img>Kyochul Jang
             </a>
             {/* I tried to use {Link} instead of react-router-dom, but its not working.} */}
           </div>
@@ -21,6 +23,7 @@ function Footer() {
                 href="https://www.facebook.com/profile.php?id=100003819070404"
                 className="facebook"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-facebook" />
               </a>
@@ -28,21 +31,30 @@ function Footer() {
                 href="https://www.instagram.com/kjang_hochul/"
                 className="instagram"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-instagram" />
               </a>
-              <a
-                href="https://www.wechat.com/"
-                className="weixin"
-                target="_blank"
+              <div className="weixin" target="_blank" rel="noreferrer">
+                <i class="fab fa-weixin" onClick={() => setIsModalOpen(true)} />
+              </div>
+              <Modal
+                isOpen={isModalOpen}
+                onRequestClose={() => setIsModalOpen(false)}
+                className="wechat-modal"
+                closeTimeoutMS={200}
               >
-                <i class="fab fa-weixin" />
-              </a>
-              {/* mobile screen to show my qr code(wechat) */}
+                <img
+                  src="/images/wechat_qrcode.jpg"
+                  alt="qrcode"
+                  className="wechat-modal-img"
+                ></img>
+              </Modal>
               <a
                 href="https://www.linkedin.com/in/kyochul-jang-93b263208/"
                 className="linked-in"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-linkedin"></i>
               </a>

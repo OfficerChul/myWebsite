@@ -23,6 +23,21 @@
   background: rgba(0, 0, 0, 0.2);
 } */
 
+.wechat-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 23rem;
+  border: solid;
+  border-color: #baffc9;
+  outline: none;
+}
+
+.wechat-modal-img {
+  width: 100%;
+}
+
 .social-media {
   max-width: 10000px;
   width: 100%;
@@ -74,9 +89,13 @@
 .social-icons {
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  width: 250px;
   font-size: 3rem;
-  padding-right: 1rem;
+}
+
+.kakaotalk {
+  color: aliceblue;
+  width: 400px;
 }
 
 .facebook {

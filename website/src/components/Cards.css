@@ -92,12 +92,14 @@ h1 {
 
 .cards__item__title {
   padding-bottom: 0.5rem;
+  text-decoration: none;
   font-weight: 900;
 }
 
 .cards__item__body {
   color: #737785;
   line-height: 24px;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 1200px) {
