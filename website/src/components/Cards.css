@@ -40,6 +40,7 @@ h1 {
   animation: ease-in-out;
   justify-content: space-around;
 }
+
 .cards__item__wrapper {
   display: flex;
   margin-left: 1rem;
