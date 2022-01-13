@@ -6,7 +6,6 @@ function Cards() {
   return (
     <div className="cards">
       <h1>My Projects</h1>
-      <p>Netlify Testing</p>
       <div className="cards__container">
         <div className="cards__wrapper">
           <CardItem

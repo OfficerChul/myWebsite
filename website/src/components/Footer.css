@@ -84,7 +84,7 @@
   font-size: 1.5rem;
   display: flex;
   align-items: flex-end;
-  color: aliceblue;
+  color: rgba(128, 128, 128, 0.274);
   font-size: 1rem;
   margin-top: 0.5rem;
 }
@@ -97,18 +97,18 @@
 }
 
 .facebook {
-  color: aliceblue;
+  color: rgba(128, 128, 128, 0.274);
 }
 
 .instagram {
-  color: aliceblue;
+  color: rgba(128, 128, 128, 0.274);
 }
 
 .weixin {
-  color: aliceblue;
+  color: rgba(128, 128, 128, 0.274);
   cursor: pointer;
 }
 
 .linked-in {
-  color: aliceblue;
+  color: rgba(128, 128, 128, 0.274);
 }

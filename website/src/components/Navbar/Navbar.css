@@ -29,7 +29,6 @@
 .menu-titles {
   display: flex;
   font-size: 1.5rem;
-  flex-direction: row;
-
+  flex-flow: row;
   list-style-type: none;
 }
