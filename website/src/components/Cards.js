@@ -24,6 +24,14 @@ function Cards() {
             url="https://github.com/OfficerChul/project-05"
             className="cards__items"
           />
+          <CardItem
+            src="images/UPS_predictive_model_project.png"
+            body="Create and develop a predictive model to identify proposal portfolio company for private equity firms which partner with UPS."
+            title="UPS PRIVATE EQUITY ANALYSIS & MODELING"
+            skills="Java"
+            url="https://github.com/OfficerChul/project-05"
+            className="cards__items"
+          />
         </div>
       </div>
     </div>
