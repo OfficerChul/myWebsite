@@ -10,7 +10,7 @@ function Cards() {
         <div className="cards__wrapper">
           <CardItem
             src="images/website_project.jpg"
-            body="The websites you are viewing now is created by me."
+            body="The websites you are viewing now is created by me. I also made my css. This website will continue to be updated. Stay tuned!"
             title="Website Project"
             skills="HTML, CSS, React.js"
             url="https://github.com/OfficerChul/myWebsite"
@@ -18,8 +18,8 @@ function Cards() {
           />
           <CardItem
             src="images/social_network_profile_project.jpg"
-            body="Network application which can show yourself to others."
-            title="Social Network Profile Project"
+            body="Network application which can show yourself to others. You can upload your bio, email address, and interests and show them to others."
+            title="Online Networking Platform"
             skills="Java"
             url="https://github.com/OfficerChul/project-05"
             className="cards__items"
