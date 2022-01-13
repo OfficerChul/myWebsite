@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.stay-tuned {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: small;
+}
+
 .logo-img {
   height: 20rem;
 }
