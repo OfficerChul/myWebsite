@@ -105,6 +105,10 @@ h1 {
   font-weight: 900;
 }
 
+.cards__item__title:hover {
+  color: rgb(245, 162, 94);
+}
+
 .cards__item__body {
   color: #737785;
   line-height: 24px;
