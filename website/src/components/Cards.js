@@ -28,8 +28,8 @@ function Cards() {
             src="images/UPS_predictive_model_project.png"
             body="Create and develop a predictive model to identify proposal portfolio company for private equity firms which partner with UPS."
             title="UPS PRIVATE EQUITY ANALYSIS & MODELING"
-            skills="Java"
-            url="https://github.com/OfficerChul/project-05"
+            skills="Python, Scikit-learn, PowerBI"
+            url=""
             className="cards__items"
           />
         </div>
