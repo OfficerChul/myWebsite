@@ -43,6 +43,7 @@
 .social-media {
   max-width: 10000px;
   width: 100%;
+  margin-left: 1rem;
 }
 
 .social-media-wrap {
@@ -93,22 +94,26 @@
   display: flex;
   justify-content: space-between;
   width: 250px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .facebook {
-  color: rgba(128, 128, 128, 0.274);
+  color: #4267b2;
 }
 
 .instagram {
-  color: rgba(128, 128, 128, 0.274);
+  color: pink;
 }
 
 .weixin {
-  color: rgba(128, 128, 128, 0.274);
+  color: green;
   cursor: pointer;
 }
 
 .linked-in {
-  color: rgba(128, 128, 128, 0.274);
+  color: blue;
+}
+
+.github {
+  color: purple;
 }

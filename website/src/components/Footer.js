@@ -51,6 +51,14 @@ function Footer() {
               >
                 <i class="fab fa-linkedin"></i>
               </a>
+              <a
+                href="https://github.com/OfficerChul"
+                className="github"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
             </div>
             <small className="website-rights">JKC © 2020</small>
           </div>

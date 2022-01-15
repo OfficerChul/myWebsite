@@ -10,7 +10,7 @@ function Cards() {
         <div className="cards__wrapper">
           <CardItem
             src="images/website_project.jpg"
-            body="The websites you are viewing now is created by me. I also made my css. This website will continue to be updated. Stay tuned!"
+            body="The websites you are viewing now is created by me. This website will continue to be updated. If you have any idea to improve my website, please let me know ans stay tuned!"
             title="Website Project"
             skills="HTML, CSS, React.js"
             url="https://github.com/OfficerChul/myWebsite"
