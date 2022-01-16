@@ -8,6 +8,19 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
+.below-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-titles {
+  display: flex;
+  font-size: 1.5rem;
+  flex-flow: row;
+  list-style-type: none;
+  width: 100%;
+}
+
 .nav-links {
   display: flex;
   padding: 0.5rem 5rem;
@@ -24,11 +37,4 @@
   color: rgba(0, 0, 0, 0.212);
   background: rgba(0, 0, 0, 0.178);
   transform: matrix3d();
-}
-
-.menu-titles {
-  display: flex;
-  font-size: 1.5rem;
-  flex-flow: row;
-  list-style-type: none;
 }

@@ -117,3 +117,32 @@
 .github {
   color: purple;
 }
+
+.email {
+  cursor: pointer;
+}
+
+.facebook:hover {
+  color: #4267b2;
+}
+
+.instagram:hover {
+  color: pink;
+}
+
+.weixin:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.linked-in:hover {
+  color: blue;
+}
+
+.github:hover {
+  color: purple;
+}
+
+.email:hover {
+  cursor: pointer;
+}

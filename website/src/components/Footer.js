@@ -12,6 +12,9 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="website-right-and-social">
             <div className="social-icons">
+              <div className="email">
+                <i class="far fa-envelope"></i>
+              </div>
               <a
                 href="https://www.facebook.com/profile.php?id=100003819070404"
                 className="facebook"
