@@ -5,6 +5,7 @@ import MainPage from "./components/MainPage/MainPage";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Modal from "react-modal";
+import Mailer from "./components/Mailer";
 
 Modal.setAppElement("#root");
 
@@ -13,9 +14,9 @@ function App() {
     <div className="App">
       <MainPage />
       <Navbar />
-
       <Cards />
       <Footer />
+      <Mailer />
     </div>
   );
 }
