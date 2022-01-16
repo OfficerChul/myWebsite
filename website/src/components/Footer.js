@@ -12,9 +12,14 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="website-right-and-social">
             <div className="social-icons">
-              <div className="email">
-                <i class="far fa-envelope"></i>
-              </div>
+              <a
+                href="mailto:jang128@purdue.edu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i classname="email" class="far fa-envelope"></i>
+              </a>
+
               <a
                 href="https://www.facebook.com/profile.php?id=100003819070404"
                 className="facebook"
@@ -63,7 +68,7 @@ function Footer() {
                 <i class="fab fa-github"></i>
               </a>
             </div>
-            <small className="website-rights">JKC © 2020</small>
+            <small className="website-rights">KCJ © 2020</small>
           </div>
         </div>
       </section>
