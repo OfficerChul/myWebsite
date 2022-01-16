@@ -40,42 +40,36 @@
   height: 100%;
 }
 
-.social-media {
-  max-width: 10000px;
+.kakaotalk-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 23rem;
+  border: solid;
+  border-color: #baffc9;
+  outline: none;
+  background-color: aliceblue;
+}
+
+.kakaotalk-modal-img {
   width: 100%;
-  margin-left: 1rem;
+  height: 100%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
 }
 
 .social-media-wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  flex-flow: row;
+  justify-content: center;
+  width: 100%;
   margin-bottom: 1rem;
   margin-top: 1rem;
-}
-
-.logo-footer {
-  display: flex;
-  width: 5rem;
-  height: 5rem;
-  position: relative;
-  left: 0%;
-}
-
-.my-logo {
-  text-decoration: none;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: 900;
-}
-
-.website-right-and-social {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-right: 1rem;
-  justify-content: center;
+  align-items: center;
 }
 
 .website-rights {
@@ -84,7 +78,7 @@
   font-weight: 900;
   font-size: 1.5rem;
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
   color: rgba(34, 34, 34, 0.74);
   font-size: 1rem;
   margin-top: 0.5rem;
@@ -92,29 +86,53 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
-  width: 250px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
   font-size: 2rem;
+}
+.social-icon {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row;
+}
+
+.kakaotalk {
+  display: flex;
+  align-items: center;
+  width: 2.1rem;
+  transition: all 0.5s;
+  animation: ease-in-out;
+  border-radius: 10px;
+  cursor: pointer;
+  /* margin-right: 5px; */
+}
+.kakaotalk:hover {
+  filter: grayscale(10);
 }
 
 .facebook {
   color: #4267b2;
   transition: all 0.5s;
   animation: ease-in-out;
+  /* margin-right: 5px; */
 }
 
 .facebook:hover {
-  color: rgb(245, 162, 94);
+  filter: grayscale(10);
 }
 
 .instagram {
   color: rgb(238, 118, 138);
   transition: all 0.5s;
   animation: ease-in-out;
+  /* margin-right: 5px; */
 }
 
 .instagram:hover {
-  color: rgb(245, 162, 94);
+  filter: grayscale(10);
 }
 
 .weixin {
@@ -122,10 +140,11 @@
   cursor: pointer;
   transition: all 0.5s;
   animation: ease-in-out;
+  /* margin-right: 5px; */
 }
 
 .weixin:hover {
-  color: rgb(245, 162, 94);
+  filter: grayscale(10);
   cursor: pointer;
 }
 
@@ -133,26 +152,34 @@
   color: blue;
   transition: all 0.5s;
   animation: ease-in-out;
+  /* margin-right: 5px; */
 }
 .linked-in:hover {
-  color: rgb(245, 162, 94);
+  filter: grayscale(10);
 }
 
 .github {
   color: purple;
   transition: all 0.5s;
   animation: ease-in-out;
+  /* margin-right: 5px; */
 }
 .github:hover {
-  color: rgb(245, 162, 94);
+  filter: grayscale(10);
 }
 
 .fa-envelope {
-  color: black;
+  color: rgb(0, 174, 255);
   transition: all 0.5s;
   animation: ease-in-out;
+  /* margin-right: 5px; */
 }
 
 .fa-envelope:hover {
-  color: rgb(245, 162, 94);
+  filter: grayscale(10);
+}
+
+.mail {
+  display: flex;
+  align-items: center;
 }
