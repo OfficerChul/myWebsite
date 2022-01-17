@@ -30,15 +30,6 @@ const Mailer = () => {
     <div>
       <div className="email-notification">
         <h1 className="contact-form">Contact Me!</h1>
-        <p>
-          (This "Contact Me!" function doesn't perfectly work yet. I preferably
-          receive an email via clicking the email icon, which is at the
-          footer.↑↑↑)
-        </p>
-        <p>
-          (If you send me an email via "Contact Me!', then I still can get the
-          email one day in the future.)
-        </p>
       </div>
       <div className="mail-wrapper">
         <form className="form-wrapper" onSubmit={sendEmail}>
