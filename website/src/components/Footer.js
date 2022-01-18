@@ -105,7 +105,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <small className="website-rights">KCJ © 2020</small>
+          <small className="website-rights">KCJ © 2022</small>
         </div>
       </section>
     </div>
