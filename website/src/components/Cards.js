@@ -27,7 +27,7 @@ function Cards() {
           <CardItem
             src="images/UPS_predictive_model_project.png"
             body="Create and develop a predictive model to identify proposal portfolio company for private equity firms which partner with UPS."
-            title="UPS PRIVATE EQUITY ANALYSIS & MODELING"
+            title="UPS PRIVATE EQUITY ANALYSIS & MODELING (In Progress)"
             skills="Python, Scikit-learn, PowerBI"
             url=""
             className="cards__items"
