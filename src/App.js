@@ -8,12 +8,18 @@ import Footer from "./components/Footer";
 import Modal from "react-modal";
 import Mailer from "./components/Mailer";
 import SearchPage from "./components/SearchPage/Search";
+import backgroundVideo from "./images/background_video.mp4";
 
 Modal.setAppElement("#root");
 
 function App() {
   return (
     <div className="App">
+      <div className='video'>
+        <video autoPlay loop muted>
+          <source src={backgroundVideo} type='video/mp4' />
+        </video>
+      </div>
       <SearchPage />
       {/* <MainPage />
       <Navbar />
