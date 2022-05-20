@@ -1,0 +1,22 @@
+.URL-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: grey;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 88px;
+    height: 88px;
+    margin-top: 30px;
+}
+.URLIcon {
+    width: 50px;
+}
+.URL-name {
+    top: 50px;
+    font-size: smaller;
+}

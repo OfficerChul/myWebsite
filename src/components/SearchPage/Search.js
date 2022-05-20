@@ -3,7 +3,7 @@ import "./Search.css"
 import logo from "../MainPage/logo_blue.png";
 import googleLogo from "./google.png";
 import magnifier from "./search.png";
-import CircleLink from "./Url/Urls";
+import CircleLink from "./Url/URLItem";
 
 export default class Search extends Component {
   render() {
